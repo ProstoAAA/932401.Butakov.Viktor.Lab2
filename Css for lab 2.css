@@ -1,19 +1,11 @@
 :root {
     --main-color: #2563EB;
-    /* основной синий */
     --accent-color: #1E3A8A;
-    /* тёмно-синий */
     --light-blue: #EFF6FF;
-    /* очень светлый синий */
     --white: #FFFFFF;
-    /* белый */
     --text-color: #172554;
-    /* тёмно-синий текст */
     --main-font: Arial, sans-serif;
 }
-
-
-/* Основные стили страницы */
 
 body {
     margin: 0;
@@ -21,9 +13,6 @@ body {
     color: var(--text-color);
     font-family: var(--main-font);
 }
-
-
-/* Заголовок */
 
 header {
     background-color: var(--card-color);
@@ -39,17 +28,11 @@ h2 {
     color: var(--accent-color);
 }
 
-
-/* Основное содержимое */
-
 main {
     width: 90%;
     max-width: 1000px;
     margin: 30px auto;
 }
-
-
-/* Сетка карточек */
 
 .skills-grid {
     position: relative;
@@ -57,9 +40,6 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
-
-/* Карточка навыка */
 
 .skill-card {
     position: relative;
@@ -70,31 +50,19 @@ main {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-
-/* Наведение */
-
 .skill-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-
-
-/* Нажатие */
 
 .skill-card:active {
     transform: scale(0.98);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-
-/* Заголовок карточки */
-
 .skill-card h3 {
     color: var(--accent-color);
 }
-
-
-/* Бейдж Top skill */
 
 .badge {
     position: absolute;
@@ -107,17 +75,11 @@ main {
     font-size: 12px;
 }
 
-
-/* Любимые инструменты */
-
 aside {
     background-color: var(--card-color);
     padding: 20px;
     margin: 20px 5%;
 }
-
-
-/* Ссылки, если они появятся */
 
 a {
     color: var(--accent-color);
@@ -134,9 +96,6 @@ a:hover {
 a:active {
     color: #172554;
 }
-
-
-/* Форма */
 
 form {
     width: 90%;
@@ -169,9 +128,6 @@ textarea {
     resize: vertical;
 }
 
-
-/* Кнопка */
-
 button {
     margin-top: 15px;
     padding: 10px 20px;
@@ -189,9 +145,6 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
-
-
-/* Подвал */
 
 footer {
     background-color: var(--accent-color);
