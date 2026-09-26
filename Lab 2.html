@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css for lab 2.css">
+    <title>О себе</title>
+
+    <style>
+        /* Внутренний CSS */
+        
+        input[type="email"] {
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #64748B;
+        }
+        
+        input[type="email"]:focus {
+            border-color: #1E3A8A;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header style="padding: 20px;">
+        <h1>Бутаков Виктор: базовая информация</h1>
+    </header>
+
+    <img src="images/Cat.png" alt="Красивый кот" width="300" height="300">
+
+    <main>
+
+        <section>
+            <h2>Навыки</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card top-skill">
+                    <span class="badge">Лучший навык</span>
+                    <h3>Python</h3>
+                    <p>Разработка приложений и работа с данными</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>C++</h3>
+                    <p>Разработка программ и алгоритмов</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>SQL</h3>
+                    <p>Создание и анализ баз данных</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Проекты</h2>
+
+            <ol>
+                <li>Создание баз данных и использование SQL для анализа данных</li>
+                <li>Создание модели LLM для анализа данных и коммуникации с пользователем</li>
+                <li>Телеграм-бот на Python</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <aside>
+        <h3>Любимые инструменты</h3>
+
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>PyCharm</li>
+            <li>CLion</li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>@ 2026</p>
+    </footer>
+
+
+
+    <form>
+
+        <label>Имя</label>
+        <input type="text" name="Имя пользователя" placeholder="Введите имя">
+
+        <label>Email</label>
+        <input type="email" name="Email пользователя" placeholder="Введите email">
+
+        <label>Сообщение</label>
+        <textarea name="Сообщение пользователя" placeholder="Введите сообщение"></textarea>
+
+        <button name="action">Отправить</button>
+
+    </form>
+
+</body>
+
+</html>
